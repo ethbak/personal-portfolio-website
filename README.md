@@ -16,19 +16,30 @@ I created ebaker.us as a digital resume and portfolio website. Coded using ASP.N
 # 💡 Features
 ### Responsive Resizing
 I used media queries to ensure that the website display is accessible and appealing no matter what size device the user views it from. More than 99% of devices are supported, with the minimum recommended width being 290px. 
-![resize](https://github.com/ethbak/personal-portfolio-website/assets/136761692/858c3846-de9a-41ec-b980-0ba4b3cd25b9)
+<br/>
+<br/>
+<img src="https://user-images.githubusercontent.com/136761692/260258767-858c3846-de9a-41ec-b980-0ba4b3cd25b9.gif" alt="resize" width="400">
 ### Dark Mode
 Powered by JavaScript action listeners and a CSS ‘darkmode’ class, the website includes a dark mode option, accessed automatically based on user system preferences or via a toggle button in the top right corner. The site uses local storage to remember users’ dark mode preferences between visits.
-![dark mode](https://github.com/ethbak/personal-portfolio-website/assets/136761692/f017efc8-1de0-4af5-912e-237265fc84ee)
+<br/>
+<br/>
+<img src="https://user-images.githubusercontent.com/136761692/260258785-f017efc8-1de0-4af5-912e-237265fc84ee.gif" alt="dark mode" width="400">
+
 ### Animated Headshot
 Using JavaScript action listeners, I designed an animated headshot that reveals a color or black-and-white image based on mouse position. This minor detail adds to the website’s intractability without sacrificing its clean design.
-![headshot animation](https://github.com/ethbak/personal-portfolio-website/assets/136761692/31d7fba1-0f80-423c-9a1d-cd83ebbe3b5a)
+<br/>
+<br/>
+<img src="https://user-images.githubusercontent.com/136761692/260258789-31d7fba1-0f80-423c-9a1d-cd83ebbe3b5a.gif" alt="headshot animation" width="400">
 ### Scroll Animations
 Using a combination of CSS classes and JavaScript action listeners, select elements on the website fade in and out when they are scrolled to or from, providing depth and improving the site’s overall UX.
-
+<br/>
+<br/>
+<img src="https://user-images.githubusercontent.com/136761692/260259471-318190b1-c95d-4c7d-83d0-258e92ff2f2f.gif" alt="scroll" width="400">
 ### Interactive Hovering
 Using the CSS hover selector, as well as the parent and sibling selectors, I allow the user to interact with certain elements when hovered over. A notable example of this is in the Projects & Skills section, where the skill icons are highlighted depending on what project is being hovered over.
-![hover](https://github.com/ethbak/personal-portfolio-website/assets/136761692/34045280-458c-4aef-aefe-bbdb55486656)
+<br/>
+<br/>
+<img src="https://user-images.githubusercontent.com/136761692/260258795-34045280-458c-4aef-aefe-bbdb55486656.gif" alt="hover" width="400">
 
 # 📀 Technologies
 ![Static Badge](https://img.shields.io/badge/HTML-red?style=for-the-badge)
@@ -43,10 +54,10 @@ Using the CSS hover selector, as well as the parent and sibling selectors, I all
 
 # 🏎️ Performance
 ### PageSpeed Insights
-Lorem ipsum dolor.
+<img width="500" alt="google" src="https://github.com/ethbak/personal-portfolio-website/assets/136761692/c18009e8-b5f3-41b0-9512-535522f72563">
 
 ### GTmetrix
-Lorem ipsum dolor.
+<img width="500" alt="gtmetrix" src="https://github.com/ethbak/personal-portfolio-website/assets/136761692/e572037d-13dd-4926-af2c-0d5654d8f073">
 
 # 👨‍💻 Contributors
 ### [Ethan Baker](https://ebaker.us)
