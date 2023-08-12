@@ -11,19 +11,24 @@
 </div>
 
 # ❓ What is [ebaker.us](https://ebaker.us)?
-Lorem ipsum dolor.
+I created ebaker.us as a digital resume and portfolio website. Coded using ASP.NET Core MVC, the site showcases my frontend skills and diverse projects. ebaker.us is designed with best practices in mind, focusing on performance optimization, responsive design, and SEO. Users can explore a dark mode that adapts based on system preferences, an animated headshot that changes based on mouse position, intuitive resizing, scroll animations, and interactive elements.
 
 # 💡 Features
 ### Responsive Resizing
-Looks good on any screen size.
+I used media queries to ensure that the website display is accessible and appealing no matter what size device the user views it from. More than 99% of devices are supported, with the minimum recommended width being 290px. 
+![resize](https://github.com/ethbak/personal-portfolio-website/assets/136761692/858c3846-de9a-41ec-b980-0ba4b3cd25b9)
 ### Dark Mode
-Automatically turns dark mode on if user setting prefers it, saves dark mode preference in local storage
+Powered by JavaScript action listeners and a CSS ‘darkmode’ class, the website includes a dark mode option, accessed automatically based on user system preferences or via a toggle button in the top right corner. The site uses local storage to remember users’ dark mode preferences between visits.
+![dark mode](https://github.com/ethbak/personal-portfolio-website/assets/136761692/f017efc8-1de0-4af5-912e-237265fc84ee)
 ### Animated Headshot
-Lorem ipsum dolor.
+Using JavaScript action listeners, I designed an animated headshot that reveals a color or black-and-white image based on mouse position. This minor detail adds to the website’s intractability without sacrificing its clean design.
+![headshot animation](https://github.com/ethbak/personal-portfolio-website/assets/136761692/31d7fba1-0f80-423c-9a1d-cd83ebbe3b5a)
 ### Scroll Animations
-Lorem ipsum.
+Using a combination of CSS classes and JavaScript action listeners, select elements on the website fade in and out when they are scrolled to or from, providing depth and improving the site’s overall UX.
+
 ### Interactive Hovering
-Lorem ipsum.
+Using the CSS hover selector, as well as the parent and sibling selectors, I allow the user to interact with certain elements when hovered over. A notable example of this is in the Projects & Skills section, where the skill icons are highlighted depending on what project is being hovered over.
+![hover](https://github.com/ethbak/personal-portfolio-website/assets/136761692/34045280-458c-4aef-aefe-bbdb55486656)
 
 # 📀 Technologies
 ![Static Badge](https://img.shields.io/badge/HTML-red?style=for-the-badge)
