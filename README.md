@@ -54,7 +54,7 @@ Using the CSS hover selector, as well as the parent and sibling selectors, I all
 
 # 🏎️ Performance
 ### Overview
-Methods of optimization, brief overview of scores
+While constructing the website, I prioritized performance optimization, using PageSpeed Insights and GTmetrix to estimate it. The present optimization scores exceed 95% across all categories (see below). While Accessibility, Best Practices, and SEO posed no significant challenges, the initial performance score was below par. To address this, I implemented Brotli compression for compacting HTTP content, employed defer and async attributes to prevent stylesheets and JavaScript files from hindering page load speed, utilized .webp images with .png alternatives to reduce image file sizes, and deferred offscreen image loading until they come into view. Further possible performance enhancement could be achieved by minimizing main JavaScript thread operations and adopting higher contrast colors to improve accessibility.
 ### Results
 PageSpeed Insights (Desktop):
 <br/>
