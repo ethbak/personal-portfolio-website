@@ -53,11 +53,21 @@ Using the CSS hover selector, as well as the parent and sibling selectors, I all
 ![Static Badge](https://img.shields.io/badge/PHOTOSHOP-lightblue?style=for-the-badge)
 
 # 🏎️ Performance
-### PageSpeed Insights
-<img width="500" alt="google" src="https://github.com/ethbak/personal-portfolio-website/assets/136761692/c18009e8-b5f3-41b0-9512-535522f72563">
+### Overview
+Methods of optimization, brief overview of scores
+### Results
+PageSpeed Insights (Desktop):
+<br/>
+<img width="400" alt="google" src="https://github.com/ethbak/personal-portfolio-website/assets/136761692/c18009e8-b5f3-41b0-9512-535522f72563">
 
-### GTmetrix
-<img width="500" alt="gtmetrix" src="https://github.com/ethbak/personal-portfolio-website/assets/136761692/e572037d-13dd-4926-af2c-0d5654d8f073">
+PageSpeed Insights (Mobile):
+<br/>
+<img width="400" alt="mobile google" src="https://github.com/ethbak/personal-portfolio-website/assets/136761692/667f8836-6cb2-4992-9997-80dd9532b413">
+
+
+GTmetrix:
+<br/>
+<img width="400" alt="gtmetrix" src="https://github.com/ethbak/personal-portfolio-website/assets/136761692/e572037d-13dd-4926-af2c-0d5654d8f073">
 
 # 👨‍💻 Contributors
 ### [Ethan Baker](https://ebaker.us)
