@@ -1,48 +1,226 @@
 ﻿@{
-    ViewData["Title"] = "Ethan Baker";
+    ViewData["Title"] = "Ethan Baker • Portfolio";
 }
 
 <body>
-    <div class="intro" id="introduction">
-        <div class="intro-content">
-            <img src="~/images/backdrop.png" id="backdrop" />
-            <img src="~/images/ethan-baker-headshot.png" height="720" width="720" id="headshot" />
-            <div class="intro-right-container">
-                <div id="title-text">
-                    <h1 class="title"><strong id="title-strong">Hello,</strong><br id="title-break" /> I'm Ethan</h1>
-                    <p id="tagline">A motivated Cornell undergrad interested in software engineering.</p>
+    <div id="top"></div>
+    <div class="section" id="introduction">
+        <div id="bg-div"></div>
+        <div id="intro-content">
+            <div id="intro-left" class="animate-scroll intro-half">
+                <div id="headshot-content">
+                    <div id="headshots">
+                        <picture>
+                            <source srcset="images/headshot-bw.webp" type="image/webp">
+                            <img id="headshot-bw" class="headshot" src="/images/headshot-bw.png" alt="black and white headshot of ethan baker" width="512" />
+                        </picture>
+                        <picture>
+                            <source srcset="images/headshot-color.webp" type="image/webp">
+                            <img id="headshot-color" class="headshot crop" src="/images/headshot-color.png" alt="color headshot of ethan baker" width="512" />
+                        </picture>
+                    </div>
                 </div>
-                <div class="intro-buttons">
-                    <a href="https://www.linkedin.com/in/ethbak/overlay/1635529992399/single-media-viewer/?profileId =ACoAADl7IWEBK2Tbqdc--9ZwIt3cP0G4da72tqw" target="_blank" class="btn btn-primary">Résumé</a>
-                    <a id="cal-btn" href="https://calendly.com/ethbak" target="_blank" class="btn btn-primary">Schedule a Call</a>
-                    <a id="linkedin-button" href="https://linkedin.com/in/ethbak" target="_blank" class="btn btn-primary"><img id="linkedin-icon" src="images/linkedin-icon.png" height="128" width="128" alt="in"></a>
+                <div id="social-buttons">
+                    <a id="in-btn" class="btn btn-primary social" target="_blank" href="https://linkedin.com/in/ethbak"><img class="social-img" src="/images/in-icon.png" alt="linkedin icon" width="64"/></a>
+                    <a id="h-btn"class="btn btn-primary social" target="_blank" href="https://app.joinhandshake.com/stu/users/33100394"><img class="social-img" src="/images/h-icon.png" alt="handshake icon"width="64"/></a>
+                    <a id="git-btn" class="btn btn-primary social" target="_blank" href="https://github.com/ethbak"><img class="social-img" src="images/git-icon.png" alt="github icon" width="64"/></a>
+                </div>
+            </div>
+            <div id="intro-right" class="animate-scroll intro-half">
+                <div id="title-text">
+                    <h1 id="intro-title"><b>Hello,</b><br />I'm Ethan</h1>
+                    <p id="intro-tagline">A motivated Cornell undergrad interested in Software Engineering.</p>
+                </div>
+                <div id="intro-buttons">
+                    <a id="resume-btn" class="btn btn-primary intro" target="_blank" href="https://www.linkedin.com/in/ethbak/overlay/1635529992399/single-media-viewer/?profileId%20=ACoAADl7IWEBK2Tbqdc--9ZwIt3cP0G4da72tqw">RESUME</a>
+                    <a id="meeting-btn" class="btn btn-primary intro" target="_blank" href="https://calendly.com/ethbak">SCHEDULE A MEETING</a>
                 </div>
             </div>
         </div>
-        <a class="btn btn-secondary" href=#about-me id="see-more">See More<br/>v</a>
+        <a class="btn-arrow" href=#about-anchor id="about-me-button">About Me<br />∨</a>
     </div>
-    <article class="about" id="about-me">
-        <h2>About <br /> me</h2>
-        <p>
-            I am a motivated and results-driven undergraduate student, currently pursuing my studies in Industrial and
-            Labor Relations at Cornell University. With a strong educational foundation in computer science and a deep
-            passion for the finance industry, I am dedicated to exploring the exciting overlap between these fields.
-            Equipped with proficiency in programming languages such as Python and Java, as well as skills in financial
-            modeling, I possess the necessary tools to drive impactful outcomes. As a junior in college, I am eager to
-            apply my technical prowess and strategic mindset to a role that optimizes financial performance, enhances
-            operational efficiency, and fosters digital transformation in the industry.
-        </p>
+    <div id="about-anchor"></div>
+    <article class="section" id="about-me">
+        <div id="about-content">
+            <h1 class="animate-scroll" id="about-header"><strong>About Me</strong></h1>
+            <p class="animate-scroll" id="about-me-paragraph">
+                I’m Ethan Baker, a third-year student at Cornell University studying Industrial and Labor Relations.
+                Despite my major, my true passion lies in software engineering. With minors in both Computer Science
+                and Data Science, as well as experience as a Technology Intern this past summer, I am an analytical
+                problem solver and skilled engineer.<br /><br />
+                Interested in full-stack development and artificial intelligence and motivated by tangible innovation,
+                my unique educational background is one of my greatest strengths as an aspiring software engineer. In
+                addition to my strong technical skills in Python, Java, OCaml, and
+                <a id="more-skills" href="#proj-skill">more</a>, my major has allowed me to
+                develop my leadership, teamwork, communication, and people management skills.<br /><br />
+                With this background, I am confident in my ability to serve as a valuable team player in an entry-level
+                software engineering role, and I plan to leverage my combination of people and technical skills in the
+                future as an engineering manager or architect.
+            </p>
+        </div>
+        <a class="btn-arrow" href=#edu-exp id="credentials-button">My Credentials<br />∨</a>
+        <img id="top-left-line" src="/images/top-left-line.png" alt="top corner art yellow" />
+        <img id="bottom-right-line" src="/images/bottom-right-line.png" alt="bottom corner art yellow"/>
     </article>
-    <section class="education" id="edu-exp">
-        <div class="edu-exp-title">
+    <section class="section" id="edu-exp">
+        <div id="edu-exp-title">
             <h2>Education & Experiences</h2>
-            <button class="expand-hide" id="expand-edu">Expand<br/>v</button>
+            <button id="edu-exp-expand" class="btn-arrow expand" data-bs-toggle="collapse" data-bs-target="#edu-exp-info">Expand<br />∨</button>
         </div>
     </section>
-    <section class="projects" id="proj-skill">
-        <div class="proj-skill-title">
+    <div id="collapse-container">
+        <div class="collapse" id="edu-exp-info">
+            <div id="edu-exp-box">
+                <div id="edu-exp-content">
+                    <h3>Education</h3>
+                    <div class="edu-exp-div box-shadow animate-scroll">
+                        <picture>
+                            <source srcset="images/cornell-logo.webp" type="image/webp">
+                            <img class="edu-exp-img" src="images/cornell-logo.png" height="256" width="256" loading="lazy">
+                        </picture>
+                        <div info>
+                            <h5 class="date">Class of 2025</h5>
+                            <h4 class="header">Cornell University • 3.7 GPA</h4>
+                            <h6 class="subheader">B.S. in ILR • Minors in Computer Science, Data Science, and Business</h6>
+                            <p class="details">Relevant Coursework:</p>
+                            <ul class="details">
+                                <li>Analysis of Algorithms</li>
+                                <li>Data Structures and Functional Programming</li>
+                                <li>Discrete Structures</li>
+                                <li>Data Structures and Object Oriented Programming</li>
+                                <li>Business Statistics</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="edu-exp-div box-shadow animate-scroll">
+                        <picture>
+                            <source srcset="images/cazenovia-logo.webp" type="image/webp">
+                            <img class="edu-exp-img" src="images/cazenovia-logo.png" height="256" width="256" loading="lazy">
+                        </picture>
+                        <div info>
+                            <h5 class="date">Class of 2021</h5>
+                            <h4 class="header">Cazenovia High School • 4.0 GPA</h4>
+                            <h6 class="subheader">Regents Diploma with Advanced Designation</h6>
+                        </div>
+                    </div>
+                    <h3>Work Experience</h3>
+                    <div class="edu-exp-div box-shadow animate-scroll">
+                        <picture>
+                            <source srcset="images/pricefm-logo.webp" type="image/webp">
+                            <img class="edu-exp-img" src="images/pricefm-logo.png" height="256" width="256" loading="lazy">
+                        </picture>
+                        <div info>
+                            <h5 class="date">June 2023 - Aug. 2023</h5>
+                            <h4 class="header">Technology Intern</h4>
+                            <h6 class="subheader">Price Finanacial Management • West Berlin, NJ</h6>
+                            <p class="details">
+                                <ul class="details">
+                                    <li>
+                                        Developed a cost-effective, scalable LinkedIn profile search program using Python and
+                                        the Google Custom Search API, reducing monthly client outreach expenses by 35%.
+                                    </li>
+                                    <li>
+                                        Created a program leveraging Selenium to automatate client lead engagement on LinkedIn,
+                                        reducing time spent by 3+ hours per week.
+                                    </li>
+                                    <li>
+                                        Enhanced the overall UX and accessability of the programs by converting them from CLIs to a
+                                        single, streamlined, Tkinter user interface.
+                                    </li>
+                                    <li>
+                                        Analyzed local businesses' IRS Form 5500s to generate over 150 targeted 401(k) plan
+                                        sponsor leads.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <h3>Extracurriculars</h3>
+                    <div class="edu-exp-div box-shadow animate-scroll">
+                        <img class="edu-exp-img" src="images/acsu-logo.png" height="256" width="256" loading="lazy">
+                        <div info>
+                            <h5 class="date"> June 2023 - Present</h5>
+                            <h4 class="header">Cornell ACSU</h4>
+                            <h6 class="subheader">Association of Computer Science Undergraduates</h6>
+                            <p class="details">
+                                <ul class="details">
+                                    <li>
+                                        Attended social events for CS students, student-faculty events, academic workshops,
+                                        and information sessions to prepare for a career in Computer Science.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img id="top-right-line" src="/images/top-right-line.png" loading="lazy"/>
+                <img id="bottom-left-line" src="/images/bottom-left-line.png" loading="lazy"/>
+            </div>
+        </div>
+    </div>
+    <section class="section" id="proj-skill">
+        <div id="proj-skill-title">
             <h2>Projects & Skills</h2>
-            <button class="expand-hide" id="expand-proj">Expand<br/>v</button>
+            <button id="skill-expand-button" class="btn-arrow expand" data-bs-toggle="collapse" data-bs-target="#proj-skill-info">Expand<br />∨</button>
         </div>
     </section>
+    <div id="proj-skill-container">
+        <div class="collapse" id="proj-skill-info">
+            <div class="outside-container">
+                <div id="projects">
+                    <div class="project animate-scroll" id="ebaker">
+                        <div class="text">
+                            <h5 class="text date">August 2023</h5>
+                            <h4 class="text header">ebaker.us</h4>
+                            <h6 class="text subheader">HTML | CSS | JavaScript | C# | ASP.NET | Bootstrap | WebGazer.js | MVC | Photoshop </h6>
+                            <p>
+                                Created a personal portfolio website using the ASP.NET Core MVC
+                                framework with a focus on responsive web design and performance. Features
+                                include dark mode toggling, a responsive background and headshot based on mouse
+                                position, scroll animations, and hover highlighting.
+                            </p>
+                        </div>
+                        <div id="button-div">
+                            <a class="git-btn" target="_blank" href="https://github.com/ethbak/ethbak.github.io">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project animate-scroll" id="connexion">
+                        <div class="text">
+                            <h5 class="text date">June 2023</h5>
+                            <h4 class="text header">ConneXion for LinkedIn</h4>
+                            <h6 class="text subheader">Python | Pandas | Numpy | Selenium | Tkinter | JSON | Google Custom Search API</h6>
+                            <p>
+                                A Python tool that serves as a free alternative to LinkedIn Sales Navigator. It utilizes the
+                                Google Custom Search API and Selenium to enable users to search for and automatically
+                                connect with new LinkedIn profiles based on their input preferences, which are controlled
+                                by a simple GUI built with Tkinter.
+                            </p>
+                        </div>
+                        <div id="button-div">
+                            <a class="connexion git-btn" target="_blank" href="https://github.com/ethbak/connexion-for-linkedin">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="outside-container" id="skill-container">
+                <h3 class="proj-title">Technical Skills</h3>
+                <div id="skills">
+                    <img class="skill-icon" id="python" src="images/python-icon.png" />
+                    <img class="skill-icon" id="java" src="images/java-icon.png" />
+                    <img class="skill-icon" id="ocaml" src="images/ocaml-icon.png" />
+                    <img class="skill-icon" id="csharp" src="images/csharp-icon.png" />
+                    <img class="skill-icon" id="javascript" src="images/js-icon.png" />
+                    <img class="skill-icon" id="html5" src="images/html-icon.png" />
+                    <img class="skill-icon" id="css3" src="images/css-icon.png" />
+                    <img class="skill-icon" id="json" src="images/json-icon.png" />
+                    <img class="skill-icon" id="dotnet" src="images/net-icon.png" />
+                    <img class="skill-icon" id="bootstrap" src="images/bootstrap-icon.png" />
+                    <img class="skill-icon" id="pandas" src="images/pandas-icon.png" />
+                    <img class="skill-icon" id="numpy" src="images/numpy-icon.png" />
+                    <img class="skill-icon" id="selenium" src="images/selenium-icon.png" />
+                    <img class="skill-icon" id="photoshop" src="images/photoshop-icon.png" />
+                </div>
+            </div>
+        </div>
+    </div>
 </body>

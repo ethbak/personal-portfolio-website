@@ -3,39 +3,48 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hello, I'm Ethan, a motivated Cornell undergrad interested in Software engineering.
+          Come view my forever growing portfolio of experiences and personal projects.'" />
     <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ebakerdotus.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" media="screen"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" media="screen"/>
+    <link rel="stylesheet" href="~/ebakerdotus.styles.css" asp-append-version="true" media="screen"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header id="navbar">
         <nav class="navbar navbar-custom navbar-expand-custom sticky-top bg-white box-shadow">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img id="hori-logo" height="50" src="/images/ethanbaker-logo.png" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img id="hori-logo" alt="{ethanbaker} logo" height="50" width="130" src="/images/ethanbaker-logo.png" /></a>
+                <button id="toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav collapse navbar-collapse flex-grow-1">
+                <div id="navbar-lists" class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul id="nav-list" class="navbar-nav collapse navbar-collapse flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" href="@Url.Action("Index", "Home")#introduction">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href=#about-me>About Me</a>
+                            <a class="nav-link" href="@Url.Action("Index", "Home")#about-anchor">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Experience & Education</a>
+                            <a class="nav-link" href="@Url.Action("Index", "Home")#edu-exp">Experience & Education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Projects & Skills</a>
+                            <a class="nav-link" href="@Url.Action("Index", "Home")#proj-skill">Projects & Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
+                            <a class="nav-link" href="@Url.Action("Index", "Home")#contact">Contact</a>
+                        </li>
+                        <li class="nav-item nav-buttons">
+                            <label id="moon" for="moon-btn" class="btn btn-primary nav-button">
+                                <img id="moon-img" src="/images/moon.png" alt="Toggle Dark Mode" height="22" width="22" loading="lazy"/>
+                                <input type="checkbox" id="moon-btn" style="display: none;">
+                            </label>
                         </li>
                     </ul>
                 </div>
@@ -43,19 +52,45 @@
         </nav>
     </header>
     <div class="container" id="content">
-        <main role="main" class="pb-3">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - ebakerdotus - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer id="contact" class="border-top footer text-muted">
+        <div class="container" id="footer-left">
+            <a class="footer-brand" asp-area="" asp-controller="Home" asp-action="Index"><img id="hori-logo-footer" height="50" width="130" src="/images/ethanbaker-logo.png" alt="ebaker.us logo"/></a>
+            <div class="container" id="left-footer-buttons">
+                <a class="footer-links" asp-area="" asp-controller="Home" asp-action="PrivacyPolicy">Privacy Policy</a>
+                <p class="footer-links footer-text">|</p>
+                <a class="footer-links" href="#top">Back to Top</a>
+            </div>
+        </div>
+        <div class="container" id="footer-right">
+            <ul id="contact-list">
+                <li>
+                    <a class="footer-buttons" target="_blank" href="https://linkedin.com/in/ethbak">
+                        <img class="footer-img" src="/images/linkedin.png" alt="linkedin icon"/>
+                    </a>
+                    <a class="footer-buttons" target="_blank" href="https://app.joinhandshake.com/stu/users/33100394">
+                        <img class="footer-img" src="/images/handshake.png" alt="handshake icon" />
+                    </a>
+                    <a class="footer-buttons" target="_blank" href="https://github.com/ethbak">
+                        <img class="footer-img" src="/images/github.png" alt="github icon" />
+                    </a>
+                </li>
+                <li>
+                    <p class="footer-text">Email:</p>
+                    <a class="footer-links" target="_blank" href="mailto:eeb73@cornell.edu">eeb73@cornell.edu</a>
+                </li>
+                <li>
+                    <p class="footer-text">Phone:</p>
+                    <a class="footer-links" target="_blank" href="tel:+1315-790-3825">315-790-3825</a>
+                </li>
+            </ul>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="~/js/site.js" asp-append-version="true" defer></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

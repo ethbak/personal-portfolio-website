@@ -17,28 +17,196 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/backdrop.png",
-      "PackagePath": "staticwebassets/images/backdrop.png"
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
     },
     {
-      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/ethan-baker-headshot.png",
-      "PackagePath": "staticwebassets/images/ethan-baker-headshot.png"
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/acsu-logo.png",
+      "PackagePath": "staticwebassets/images/acsu-logo.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/bootstrap-icon.png",
+      "PackagePath": "staticwebassets/images/bootstrap-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/bottom-left-line.png",
+      "PackagePath": "staticwebassets/images/bottom-left-line.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/bottom-right-line.png",
+      "PackagePath": "staticwebassets/images/bottom-right-line.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/cazenovia-logo.png",
+      "PackagePath": "staticwebassets/images/cazenovia-logo.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/cazenovia-logo.webp",
+      "PackagePath": "staticwebassets/images/cazenovia-logo.webp"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/connexion-bottom.png",
+      "PackagePath": "staticwebassets/images/connexion-bottom.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/cornell-logo.png",
+      "PackagePath": "staticwebassets/images/cornell-logo.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/cornell-logo.webp",
+      "PackagePath": "staticwebassets/images/cornell-logo.webp"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/csharp-icon.png",
+      "PackagePath": "staticwebassets/images/csharp-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/css-icon.png",
+      "PackagePath": "staticwebassets/images/css-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/dark-bottom-left-line.png",
+      "PackagePath": "staticwebassets/images/dark-bottom-left-line.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/dark-top-right-line.png",
+      "PackagePath": "staticwebassets/images/dark-top-right-line.png"
     },
     {
       "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/ethanbaker-logo.png",
       "PackagePath": "staticwebassets/images/ethanbaker-logo.png"
     },
     {
-      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/intro-bg.png",
-      "PackagePath": "staticwebassets/images/intro-bg.png"
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/eye-on.png",
+      "PackagePath": "staticwebassets/images/eye-on.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/git-icon.png",
+      "PackagePath": "staticwebassets/images/git-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/github.png",
+      "PackagePath": "staticwebassets/images/github.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/h-icon.png",
+      "PackagePath": "staticwebassets/images/h-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/handshake.png",
+      "PackagePath": "staticwebassets/images/handshake.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/headshot-bw.png",
+      "PackagePath": "staticwebassets/images/headshot-bw.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/headshot-bw.webp",
+      "PackagePath": "staticwebassets/images/headshot-bw.webp"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/headshot-color.png",
+      "PackagePath": "staticwebassets/images/headshot-color.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/headshot-color.webp",
+      "PackagePath": "staticwebassets/images/headshot-color.webp"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/html-icon.png",
+      "PackagePath": "staticwebassets/images/html-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/in-icon.png",
+      "PackagePath": "staticwebassets/images/in-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/java-icon.png",
+      "PackagePath": "staticwebassets/images/java-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/js-icon.png",
+      "PackagePath": "staticwebassets/images/js-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/json-icon.png",
+      "PackagePath": "staticwebassets/images/json-icon.png"
     },
     {
       "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/linkedin-icon.png",
       "PackagePath": "staticwebassets/images/linkedin-icon.png"
     },
     {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/linkedin.png",
+      "PackagePath": "staticwebassets/images/linkedin.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/moon.png",
+      "PackagePath": "staticwebassets/images/moon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/net-icon.png",
+      "PackagePath": "staticwebassets/images/net-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/numpy-icon.png",
+      "PackagePath": "staticwebassets/images/numpy-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/ocaml-icon.png",
+      "PackagePath": "staticwebassets/images/ocaml-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/pandas-icon.png",
+      "PackagePath": "staticwebassets/images/pandas-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/photoshop-icon.png",
+      "PackagePath": "staticwebassets/images/photoshop-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/pricefm-logo.png",
+      "PackagePath": "staticwebassets/images/pricefm-logo.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/pricefm-logo.webp",
+      "PackagePath": "staticwebassets/images/pricefm-logo.webp"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/project-bottom.png",
+      "PackagePath": "staticwebassets/images/project-bottom.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/python-icon.png",
+      "PackagePath": "staticwebassets/images/python-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/selenium-icon.png",
+      "PackagePath": "staticwebassets/images/selenium-icon.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/sun.png",
+      "PackagePath": "staticwebassets/images/sun.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/top-left-line.png",
+      "PackagePath": "staticwebassets/images/top-left-line.png"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/images/top-right-line.png",
+      "PackagePath": "staticwebassets/images/top-right-line.png"
+    },
+    {
       "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/lib/bootstrap/.DS_Store",
+      "PackagePath": "staticwebassets/lib/bootstrap/.DS_Store"
     },
     {
       "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/lib/bootstrap/LICENSE",
@@ -221,6 +389,10 @@
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/lib/jquery-validation-unobtrusive/.DS_Store",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/.DS_Store"
+    },
+    {
       "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
@@ -231,6 +403,10 @@
     {
       "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/lib/jquery-validation/.DS_Store",
+      "PackagePath": "staticwebassets/lib/jquery-validation/.DS_Store"
     },
     {
       "Id": "/Users/ethanbaker/Desktop/Programming/ebakerdotus/ebakerdotus/wwwroot/lib/jquery-validation/LICENSE.md",
